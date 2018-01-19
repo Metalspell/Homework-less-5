@@ -1,0 +1,65 @@
+.Main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100vh;
+
+
+	&-leftPanel {
+		
+		display: flex;
+		background-color: #c1c1c1;
+		flex-direction: column;
+		justify-content: space-between;
+		border-bottom: 2px solid black;
+		border-style: dotted;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		height: 80vh;
+
+		&-items {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+
+		&-block {
+			background-color: #76BF96;
+			margin-bottom: 15px;
+			overflow-x: hidden;
+		}
+
+		&-list {
+			margin-bottom: 100px;
+		}
+	}
+
+	&-centerPanel {
+		display: flex;
+		align-items: flex-start;
+		padding: 15px;
+		height: auto;
+		/*overflow-x: auto;*/
+
+		&-textBlock {
+		}
+	}
+
+	&-text {
+		font-size: 12px;
+	}
+
+	&-float {
+		margin-left: 15px;
+		font-size: 12px;
+	}
+
+	&-rightPanel {
+		display: flex;
+		/*justify-content: flex-end;*/
+		background-color: gray;
+		height: 250px;
+	}
+}
+

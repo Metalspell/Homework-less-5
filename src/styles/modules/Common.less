@@ -1,0 +1,26 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+
+.container-fluid {
+	overflow: hidden;
+	height: 100vh;
+}
+
+@media screen and (max-width: 968px) and (min-width: 320px) {
+	.container-fluid {
+		overflow-x: auto;
+	}
+}
+
+@media screen and (max-height: 468px) and (min-height: 120px) {
+	.container-fluid {
+		overflow-y: auto;
+	}
+}
+
+
+
+
